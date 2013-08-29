@@ -1,0 +1,6 @@
+-e git://gitorious.org/mediagoblin/mediagoblin.git#egg=mediagoblin
+lxml==3.2.3
+pillow==2.1.0
+gunicorn==18.0
+configobj==4.7.2
+psycopg2==2.5.1

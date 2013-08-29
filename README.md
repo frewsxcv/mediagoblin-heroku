@@ -2,13 +2,20 @@
 
 A project dedicated to making [GNU MediaGoblin](http://mediagoblin.org) easily deployable to [Heroku](http://heroku.com).
 
-## About
-
-The default database MediaGoblin will use is SQLite. If there is a variable `$DATABASE_URL` your shell environment containing a database URL (which is the case if you have [Heroku Postgres](https://postgres.heroku.com/) installed), then MediaGoblin will use PostgreSQL.
-
 ## Set-up
 
-Coming soon
+1. Clone the repository:
+
+```sh
+git clone git@github.com:frewsxcv/mediagoblin-heroku.git
+cd mediagoblin-heroku
+```
+
+More instructions coming soon
+
+## Database
+
+By default, MediaGoblin-Heroku will use a SQLite database. If there is an environment variable named `DATABASE_URL` containing a database connection URL (which is the case if you have [Heroku Postgres](https://postgres.heroku.com/) installed), then MediaGoblin will use PostgreSQL.
 
 ## License
 

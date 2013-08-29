@@ -6,10 +6,10 @@ A project dedicated to making [GNU MediaGoblin](http://mediagoblin.org) easily d
 
 1. Clone the repository:
 
-```sh
-git clone git@github.com:frewsxcv/mediagoblin-heroku.git
-cd mediagoblin-heroku
-```
+  ```sh
+  git clone git@github.com:frewsxcv/mediagoblin-heroku.git
+  cd mediagoblin-heroku
+  ```
 
 2. Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
@@ -17,15 +17,15 @@ cd mediagoblin-heroku
 
 4. Add your Heroku app remote to the local git repository
 
-```sh
-heroku git:remote -a <your Heroku app name here>
-```
+  ```sh
+  heroku git:remote -a <your Heroku app name here>
+  ```
 
 5. Push to your remote Heroku repository
 
-```sh
-git push heroku master
-```
+  ```sh
+  git push heroku master
+  ```
 
 ## License
 

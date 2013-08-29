@@ -1,6 +1,6 @@
 # MediaGoblin-Heroku
 
-A project dedicated to making [MediaGoblin](http://mediagoblin.org) easily deployable to [Heroku](http://heroku.com).
+A project dedicated to making [GNU MediaGoblin](http://mediagoblin.org) easily deployable to [Heroku](http://heroku.com).
 
 ## About
 

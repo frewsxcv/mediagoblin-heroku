@@ -9,3 +9,7 @@ The default database MediaGoblin will use is SQLite. If there is a variable `$DA
 ## Set-up
 
 Coming soon
+
+## License
+
+MediaGoblin-Heroku is licensed under [version two of the Mozilla Public License](LICENSE.md). MediaGoblin licensing information can be found in [their repository](https://gitorious.org/mediagoblin/mediagoblin/source/HEAD:COPYING).

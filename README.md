@@ -11,11 +11,21 @@ git clone git@github.com:frewsxcv/mediagoblin-heroku.git
 cd mediagoblin-heroku
 ```
 
-More instructions coming soon
+2. Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
-## Database
+3. Create your app on Heroku. If you plan on using [Heroku Postgres](https://postgres.heroku.com/), make sure to install that as well.
 
-By default, MediaGoblin-Heroku will use a SQLite database. If there is an environment variable named `DATABASE_URL` containing a database connection URL (which is the case if you have [Heroku Postgres](https://postgres.heroku.com/) installed), then MediaGoblin will use PostgreSQL.
+4. Add your Heroku app remote to the local git repository
+
+```sh
+heroku git:remote -a <your Heroku app name here>
+```
+
+5. Push to your remote Heroku repository
+
+```sh
+git push heroku master
+```
 
 ## License
 

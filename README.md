@@ -15,13 +15,25 @@ A project dedicated to making [GNU MediaGoblin](http://mediagoblin.org) easily d
 
 3. Create your app on Heroku. If you plan on using [Heroku Postgres](https://postgres.heroku.com/), make sure to install that as well.
 
-4. Add your Heroku app remote to the local git repository
+4. Add your Heroku app remote to the local git repository:
 
   ```sh
   heroku git:remote -a <your Heroku app name here>
   ```
 
-5. Push to your remote Heroku repository
+5. Copy the template config file and modify it to suit your needs:
+
+  ```sh
+  cp mediagoblin.tmpl.ini mediagoblin.ini
+  ```
+
+6. Commit your config file to your local repo:
+
+  ```sh
+  git commit -m "Add my config file" mediagoblin.ini
+  ```
+
+7. Push to your remote Heroku repository:
 
   ```sh
   git push heroku master

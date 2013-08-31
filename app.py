@@ -4,7 +4,7 @@ from mediagoblin.app import MediaGoblinApp
 from configobj import ConfigObj
 
 
-CONFIG_FILE_PATH = "mediagoblin_local.ini"
+CONFIG_FILE_PATH = "mediagoblin.ini"
 
 database_url = os.environ.get("DATABASE_URL", False)
 

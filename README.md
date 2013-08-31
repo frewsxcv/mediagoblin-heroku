@@ -39,6 +39,8 @@ A project dedicated to making [GNU MediaGoblin](http://mediagoblin.org) easily d
   git push heroku master
   ```
 
+  This will deploy MediaGoblin to Heroku. Be patient with this process as MediaGoblin has quite a few Python dependencies.
+
 ## License
 
 MediaGoblin-Heroku is licensed under [version two of the Mozilla Public License](LICENSE.md). MediaGoblin licensing information can be found in [their repository](https://gitorious.org/mediagoblin/mediagoblin/source/HEAD:COPYING).

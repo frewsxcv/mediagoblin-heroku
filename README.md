@@ -2,6 +2,11 @@
 
 A project dedicated to making [GNU MediaGoblin](http://mediagoblin.org) easily deployable to [Heroku](http://heroku.com).
 
+## Notes
+
+* I couldn't get Celery and the message broker working the way I wanted to, so for simplicity, I have [CELERY\_ALWAYS\_EAGER](http://docs.celeryproject.org/en/latest/configuration.html#celery-always-eager) turned on. If you figure out a way to get an external queue working on Heroku with MediaGoblin, send a pull request and I'll gladly accept it.
+* While you can store everything locally on Heroku, it's recommended that you set [Rackspace Cloud Files](http://www.rackspace.com/cloud/files/) as the default public storage. Instructions to perform this can be found [here](http://wiki.mediagoblin.org/Configure_MediaGoblin#Setting_up_Cloud_Files_public_storage).
+
 ## Set-up
 
 1. Clone the repository:
